@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision-agent"
+version = "1.0.0"
+description = "Autonomous AI Agent for Saudi Vision 2030 Workforce Optimization and UN SDG Alignment"
+readme = "README.md"
+authors = [
+    { name = "Dr. Muhammad Zulkifl Hasan", email = "zulkifl.hasan@ucp.edu.pk" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.18.0",
+    "pydantic>=2.6.0",
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.2.0"
+]
+
+[project.scripts]
+vision-agent = "vision_agent.cli:app"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
