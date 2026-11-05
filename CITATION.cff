@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Hasan"
+    given-names: "Muhammad Zulkifl"
+    orcid: "https://orcid.org/0000-0002-2733-5527"
+    affiliation: "University of Central Punjab (UCP), Lahore"
+title: "Saudi Vision 2030 AI Workforce & SDG Alignment Agent"
+version: 1.0.0
+date-released: 2026-03-30
+url: "https://github.com/kanizasyeda512-cyber/saudi-vision2030-sme-agent"
