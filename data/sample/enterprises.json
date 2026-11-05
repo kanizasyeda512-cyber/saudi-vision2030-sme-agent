@@ -1,0 +1,18 @@
+[
+  {
+    "company_id": "COMP-101",
+    "name": "Neom Digital Solutions",
+    "sector": "Information Technology",
+    "total_employees": 150,
+    "saudi_employees": 45,
+    "current_tier": "Medium Green"
+  },
+  {
+    "company_id": "COMP-102",
+    "name": "Al-Wadi Retail Group",
+    "sector": "Retail and Commerce",
+    "total_employees": 500,
+    "saudi_employees": 120,
+    "current_tier": "Low"
+  }
+]
