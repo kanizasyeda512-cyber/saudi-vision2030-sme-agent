@@ -1,0 +1,32 @@
+[
+  {
+    "id": "CAND-001",
+    "name": "Fatima Al-Shammari",
+    "city": "Riyadh",
+    "gender": "Female",
+    "nationality": "Saudi",
+    "skills": ["Python", "Data Analysis", "Machine Learning", "SQL"],
+    "experience_years": 3,
+    "desired_role": "Data Scientist"
+  },
+  {
+    "id": "CAND-002",
+    "name": "Abdulaziz Al-Otaibi",
+    "city": "Jeddah",
+    "gender": "Male",
+    "nationality": "Saudi",
+    "skills": ["Project Management", "Agile", "Scrum", "Risk Assessment"],
+    "experience_years": 5,
+    "desired_role": "Project Manager"
+  },
+  {
+    "id": "CAND-003",
+    "name": "Nouf Al-Harbi",
+    "city": "Dammam",
+    "gender": "Female",
+    "nationality": "Saudi",
+    "skills": ["Cybersecurity", "Network Security", "Risk Analysis", "Python"],
+    "experience_years": 4,
+    "desired_role": "Security Analyst"
+  }
+]
