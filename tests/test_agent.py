@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 import pytest
 from vision_agent.agent import VisionWorkforceAgent
 from vision_agent.tools.data_loader import load_dataset
